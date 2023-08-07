@@ -4,124 +4,264 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>template</title>
-</head>
-       <style>
-        .container{
-            height: 300vh;
-            border: 2px solid black;
-
-        }
-        .header{
-            height: 5%;
-            border: 2px solid black;
-            display: flex;
-            position: sticky;
-            top: 0;
-
-        }
-        .box-1{
-            height: 30%;
-            border: 2px solid blue;
-        }
-        .box-2{
-            height: 10%;
-            border: 2px solid black;
-            margin-left: 0px;
-        }
-        .box-3{
-            height: 10%;
-            border: 2px solid black;
-        }
-        .box-4{
-            height: 15%;
-            border: 2px solid black;
-        }
-         .box-5{
-            height: 30%;
-            border: 2px solid black;
-        }
-       
-        
-       
-        .Br{
-            height: 100%;
-            width: 70%;
-            border: 2px solid black;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            letter-spacing: 5px;
-        }
-        .project{
-            height: 100%;
-            width: 10%;
-            border: 2px solid black;
-            display: flex;
-            justify-content: space-around;
-            align-items: center;
-        }
-        .about{
-            height: 100%;
-            width: 10%;
-            border: 2px solid black;
-            display: flex;
-            justify-content: space-around;
-            align-items: center;
-        }
-        .contact{
-            height: 100%;
-            width: 10%;
-            border: 2px solid black;
-            display: flex;
-            justify-content: space-around;
-            align-items: center;
+    <style>
+        body{
+            height: 500vh;
         }
         img{
             height: 100%;
             width: 100%;
+        }
+        .container{
+            height: 400vh;
 
         }
-        .image{
-            height: 40%;
-            width: 20%;
-            flex-wrap: wrap;
+        .box1{
+            height: 3%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: sticky;
+            top: 0px;
         }
-
-        .footer{
+        .box11{
+            height: 100%;
+            width: 70%;
+            letter-spacing: 5px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 30px;
+        }
+        .box12{
+            height: 100%;
+            width: 10%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 30px;
+        }
+        .box13{
+            height: 100%;
+            width: 10%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 30px;
+        }
+        .box14{
+            height: 100%;
+            width: 10%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 30px;
+        }
+        .box2{
+            height: 25%;
+        }
+        .box3{
+            height: 20%;
+        }
+        .box31{
             height: 10%;
-            border: 2px solid black;
+            display: flex;
+            align-items: center;
+            font-size: 30px;
+            
         }
+        .box311{
+            margin-left: 20px;
+        }
+        .box32{
+            height: 89.2%;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+        }
+        .box321{
+            height: 48%;
+            width: 24%;
+        }
+        .box4{
+            height: 22%;
+        }
+        .box41{
+            height: 10%;
+            display: flex;
+            align-items: center;
+            font-size: 30px;
+        }
+        .box42{
+            height: 20%;
+        }
+        .box43{
+            height: 69.2%;
+            display: flex;
+            justify-content: space-evenly;
+        }
+        .box431{
+            height: 95%;
+            width: 24%;
+            margin-top: 10px;
+            
+         }
+         .box4311{
+            height: 50%;
+         }
+         .box4312{
+            color: gray;
+            height: 10%;
+            font-size: 20px;
+         }
+         .box4313{
+            height: 20%;
+            font-size: 20px;
+         }
+         .box4314{
+            height: 8%;
+         }
+         #box-1
+        {
+            width: 100%;
+            height: 100%;
+            border-radius: 2px;
+        }
+        .box5{
+             height: 15%;
+        }
+        .box51{
+            height: 10%;
+            font-size: 30px;
+            display: flex;
+            align-items: center;
+        }
+        .box52{
+            height: 15%;
+            font-size: 20px;
+        }
+        .box53{
+            height: 75%;
+            display: flex;
+            border: 1px solid white;
+            flex-direction: column;
+            
+
+        }
+        #box53{
+            width: 80%;
+            padding: 5px;
+            margin-top: 20px;
+            margin-left: 20px;
+
+        }
+        #box54{
+            width: 10%;
+            padding: 5px;
+            margin-top: 20px;
+            margin-left: 20px;
+            background-color: black;
+            color: white;
+
+        }
+        .box6{
+            height: 14.5%;
+        }
+        footer{
+            height: 100px;
+            width: 100%;
+            background-color: black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+        }
+
        </style>
+</head>
+       
 <body>
     <div class="container">
-         <div class="header">
-            <div class="Br"><b>B R</b>Architect</div>
-            <div class="project">Project</div>
-            <div class="about">About</div>
-            <div class="contact">Contact</div>
-
-         </div>
-         <div class="box-1"><img src="https://www.w3schools.com/w3images/architect.jpg" alt=""> </div>
-         <div class="box-2"><b>Projects</b>
-          <div class="image"><img src="https://www.w3schools.com/w3images/house5.jpg" alt=""></div>
-          <div class="image"><img src="https://www.w3schools.com/w3images/house2.jpg" alt=""></div>
-          <div class="image"><img src="https://www.w3schools.com/w3images/house3.jpg" alt=""></div>
-          <div class="image"></div>
-          <div class="image"></div>
-          <div class="image"></div>
-          <div class="image"></div>
-          <div class="image"></div>
+        <div class="box1">
+            <div class="box11"><b>B R</b>Architects</div>
+            <div class="box12">Project</div>
+            <div class="box13">About</div>
+            <div class="box14">Contact</div>
         </div>
-         <div class="box-3"></div>
-         <div class="box-4">Contact
-            <form action="">
-                <input type="text">
-            </form>
-         </div>
-         <div class="box-5"><img src="https://www.w3schools.com/w3images/map.jpg" alt=""></div>
+        <div class="box2"><img src="https://www.w3schools.com/w3images/architect.jpg" alt=""></div>
+        <div class="box3">
+            <div class="box31">
+                <div class="box311">Project</div>
+            </div>
+            <div class="box32">
+                <div class="box321"><img src="https://www.w3schools.com/w3images/house5.jpg" alt=""></div>
+                <div class="box321"><img src="https://www.w3schools.com/w3images/house2.jpg" alt=""></div>
+                <div class="box321"><img src="https://www.w3schools.com/w3images/house3.jpg" alt=""></div>
+                <div class="box321"><img src="https://www.w3schools.com/w3images/house4.jpg" alt=""></div>
+                <div class="box321"><img src="https://www.w3schools.com/w3images/house2.jpg" alt=""></div>
+                <div class="box321"><img src="https://www.w3schools.com/w3images/house5.jpg" alt=""></div>
+                <div class="box321"><img src="https://www.w3schools.com/w3images/house4.jpg" alt=""></div>
+                <div class="box321"><img src="https://www.w3schools.com/w3images/house3.jpg" alt=""></div>
+            </div>
+             
+        </div>
+        <div class="box4">
+            <div class="box41">
+                <div class="box311">About</div>
+            </div>
+            <div class="box42"><p class="box311">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsam, nesciunt illo, dignissimos, officia quaerat eveniet iure cupiditate hic qui nostrum fugiat veritatis porro laudantium fugit saepe aliquid totam reiciendis omnis voluptas minus. Nihil, repudiandae dicta. Delectus, nihil ullam! Libero doloremque error consequatur consectetur. Quae facilis nihil nostrum in, iste et odio doloremque dolor. Reiciendis hic sapiente quia error quibusdam modi dolore laborum corporis animi repudiandae iste accusamus recusandae sunt nam voluptatem, voluptas possimus quisquam consectetur totam culpa atque debitis? Repudiandae, rem possimus praesentium, corporis laborum eaque eum, vero dolor ab ipsa quasi voluptatibus adipisci at accusantium doloribus nostrum totam! Ducimus.</p></div>
+            <div class="box43">
+                <div class="box431">
+                    <div class="box4311"><img src="https://www.w3schools.com/w3images/team2.jpg" alt=""></div>
+                    <div class="box4312">John Doe</div>
+                    <div class="box4312">CEO & Founder</div>
+                    <div class="box4313">Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</div>
+                    <div class="box4314"><input type="Submit" value="Contact" id="box-1"></div>
+                </div>
+                <div class="box431">
+                    <div class="box4311"><img src="https://www.w3schools.com/w3images/team1.jpg" alt=""></div>
+                    <div class="box4312">Jane Doe</div>
+                    <div class="box4312">Architect</div>
+                    <div class="box4313">Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</div>
+                    <div class="box4314"><input type="Submit" value="Contact" id="box-1"></div>
+                </div>
+                <div class="box431">
+                    <div class="box4311"><img src="https://www.w3schools.com/w3images/team3.jpg" alt=""></div>
+                    <div class="box4312">Mike Ross</div>
+                    <div class="box4312">Architect</div>
+                    <div class="box4313">Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</div>
+                    <div class="box4314"><input type="Submit" value="Contact" id="box-1"></div>
+                 
+                </div>
+                <div class="box431">
+                <div class="box4311"><img src="https://www.w3schools.com/w3images/team4.jpg" alt=""></div>
+                <div class="box4312">Dane Star</div>
+                <div class="box4312">Architect</div>
+                <div class="box4313">Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</div>
+                <div class="box4314"><input type="Submit" value="Contact" id="box-1"></div>
+            </div>
+            </div></div>
+            <div class="box5">
+                <div class="box51">
+                    <div class="box311">Contact</div>
+                </div>
+                <div class="box52"><p class="box311">Lets get in touch and talk about your next project.</p></div>
+                <div class="box53">
+                    <input type="text" id="box53" placeholder="Name">
+                    <input type="Email"  id="box53" placeholder="Email">
+                    <input type="text" id="box53" placeholder="Subject">
+                    <input type="text"  id="box53" placeholder="Comment">
+                    <input type="Submit" value="Send Message" id="box54">
+                </div></div>
+                <div class="box6"><img src="https://www.w3schools.com/w3images/map.jpg" alt=""></div>
+            </div>
+
+            
+           
         
     </div>
-    <div class="footer"></div>
-    
+<footer>Powered By W3.CSS
+</footer>
+  
 </body>
 </html>

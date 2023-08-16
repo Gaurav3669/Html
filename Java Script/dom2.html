@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="text" name="" id="" class="ab">
+    <input type="text" name="" id="" class="ab">
+    <input type="text" name="" id="" class="ab">
+    <input type="text" name="" id="" class="ab">
+    <input type="text" name="" id="" class="ab">
+    <input type="text" name="" id="" class="ab">
+    <input type="text" name="" id="" class="ab">
+    <button id="btn">Submit</button>
+    <script>
+        document.getElementById("btn").onclick = function(){
+            let a = document.getElementsByClassName("ab")
+            for(i=0 ; i<a.length ; i++)
+            console.log(a[i].value)
+            // console.log(a[1].value)
+            // console.log(a[2].value)
+            // console.log(a[3].value)
+            // console.log(a[4].value)
+            // console.log(a[5].value)
+            // console.log(a[6].value)
+            }
+            document.querySelector("button").onclick = function(){
+                let a = document.querySelectorAll("input")
+                for(let i of a){
+                    console.log(i.value)
+                }
+            }
+    </script>
+</body>
+</html>
